@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainMenu" >
+
+    <LinearLayout
+        android:id="@+id/advLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/svfp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/llfp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:shadowColor="@color/black"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="4"
+                android:text="@string/input_data"
+                android:textColor="#bc66ffff"
+                android:textScaleX="1.4"
+                android:textSize="@dimen/sp26"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/surname"
+                android:layout_marginLeft="15dp"
+                android:shadowColor="@color/black"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="4"
+                android:textColor="@color/seawave"
+                android:textScaleX="1.4"
+                android:textSize="@dimen/sp22"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etSurname1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:background="@drawable/style_input"
+                android:ems="10"
+                android:inputType="textCapWords"
+                android:paddingLeft="8dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp20" >
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name" 
+                android:layout_marginLeft="15dp"
+                android:shadowColor="@color/black"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="4"
+                android:textColor="@color/seawave"
+                android:textScaleX="1.4"
+                android:textSize="@dimen/sp22"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etFullName1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:background="@drawable/style_input"
+                android:ems="10"
+                android:inputType="textCapWords"
+                android:paddingLeft="8dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp20" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/patonymic" 
+                android:layout_marginLeft="15dp"
+                android:shadowColor="@color/black"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="4"
+                android:textColor="@color/seawave"
+                android:textScaleX="1.4"
+                android:textSize="@dimen/sp22"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/etPatronymic1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:background="@drawable/style_input"
+                android:ems="10"
+                android:inputType="textCapWords"
+                android:paddingLeft="8dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp20" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/birthday"                 
+                android:layout_marginLeft="15dp"
+                android:shadowColor="@color/black"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="4"
+                android:textColor="@color/seawave"
+                android:textScaleX="1.4"
+                android:textSize="@dimen/sp22"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/dateButton1"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="3dp"
+                android:background="@drawable/style_input"
+                android:gravity="left|center_vertical"
+                android:onClick="showDatePickerDialog"
+                android:paddingLeft="8dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp20" />
+
+            <Button
+                android:id="@+id/bNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="10dp"
+                android:alpha="0.8"
+                android:background="@drawable/butnext" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/adLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id" >
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+
+</LinearLayout>

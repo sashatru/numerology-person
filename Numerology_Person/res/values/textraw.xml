@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    	<array name="texts">
+        <item>@raw/about</item>
+   		</array>
+   		
+    	<array name="soul">
+        <item>@raw/soul1</item>
+        <item>@raw/soul2</item>
+        <item>@raw/soul3</item>
+        <item>@raw/soul4</item>
+        <item>@raw/soul5</item>
+        <item>@raw/soul6</item>
+        <item>@raw/soul7</item>
+        <item>@raw/soul8</item>
+        <item>@raw/soul9</item>
+        <item>@raw/soul10</item>
+        <item>@raw/soul11</item>
+        <item>@raw/soul13</item>
+        <item>@raw/soul14</item>
+        <item>@raw/soul16</item>
+        <item>@raw/soul19</item>
+        <item>@raw/soul22</item>
+        <item>@raw/soul33</item>
+        <item>@raw/soul44</item>
+        <item>@raw/soul55</item>
+        <item>@raw/soul66</item>
+        <item>@raw/soul77</item>
+        <item>@raw/soul88</item>
+        <item>@raw/soul99</item>
+        </array>
+
+    	<array name="dest">
+        <item>@raw/dest1</item>
+        <item>@raw/dest2</item>
+        <item>@raw/dest3</item>
+        <item>@raw/dest4</item>
+        <item>@raw/dest5</item>
+        <item>@raw/dest6</item>
+        <item>@raw/dest7</item>
+        <item>@raw/dest8</item>
+        <item>@raw/dest9</item>
+        <item>@raw/dest10</item>
+        <item>@raw/dest11</item>
+        <item>@raw/dest13</item>
+        <item>@raw/dest14</item>
+        <item>@raw/dest16</item>
+        <item>@raw/dest19</item>
+        <item>@raw/dest22</item>
+        <item>@raw/dest33</item>
+        <item>@raw/dest44</item>
+        <item>@raw/dest55</item>
+        <item>@raw/dest66</item>
+        <item>@raw/dest77</item>
+        <item>@raw/dest88</item>
+        <item>@raw/dest99</item>
+        </array>
+        
+    	<array name="pers">
+        <item>@raw/pers1</item>
+        <item>@raw/pers2</item>
+        <item>@raw/pers3</item>
+        <item>@raw/pers4</item>
+        <item>@raw/pers5</item>
+        <item>@raw/pers6</item>
+        <item>@raw/pers7</item>
+        <item>@raw/pers8</item>
+        <item>@raw/pers9</item>
+        <item>@raw/pers11</item>
+        <item>@raw/pers22</item>
+        </array>
+        
+		<array name="lifepath">
+        <item>@raw/lp1</item>
+        <item>@raw/lp2</item>
+        <item>@raw/lp3</item>
+        <item>@raw/lp4</item>
+        <item>@raw/lp5</item>
+        <item>@raw/lp6</item>
+        <item>@raw/lp7</item>
+        <item>@raw/lp8</item>
+        <item>@raw/lp9</item>
+        <item>@raw/lp10</item>
+        <item>@raw/lp11</item>
+        <item>@raw/lp13</item>
+        <item>@raw/lp14</item>
+        <item>@raw/lp16</item>
+        <item>@raw/lp19</item>
+        <item>@raw/lp22</item>
+        <item>@raw/lp33</item>
+        <item>@raw/lp44</item>
+        </array>
+            
+    	<array name="maturity">
+        <item>@raw/m1</item>
+        <item>@raw/m2</item>
+        <item>@raw/m3</item>
+        <item>@raw/m4</item>
+        <item>@raw/m5</item>
+        <item>@raw/m6</item>
+        <item>@raw/m7</item>
+        <item>@raw/m8</item>
+        <item>@raw/m9</item>
+        <item>@raw/m11</item>
+        <item>@raw/m22</item>
+        <item>@raw/m33</item>
+        <item>@raw/m44</item>
+        <item>@raw/m55</item>
+        <item>@raw/m66</item>
+        <item>@raw/m77</item>
+        <item>@raw/m88</item>
+        <item>@raw/m99</item>
+        </array>
+
+    	<array name="peaks">
+        <item>@raw/peak1</item>
+        <item>@raw/peak2</item>
+        <item>@raw/peak3</item>
+        <item>@raw/peak4</item>
+        <item>@raw/peak5</item>
+        <item>@raw/peak6</item>
+        <item>@raw/peak7</item>
+        <item>@raw/peak8</item>
+        <item>@raw/peak9</item>
+        </array>
+
+		<array name="problems">
+        <item>@raw/probl0</item>
+        <item>@raw/probl1</item>
+        <item>@raw/probl2</item>
+        <item>@raw/probl3</item>
+        <item>@raw/probl4</item>
+        <item>@raw/probl5</item>
+        <item>@raw/probl6</item>
+        <item>@raw/probl7</item>
+        <item>@raw/probl8</item>
+        </array>
+        
+		<array name="maincycle">
+        <item>@raw/mc1</item>
+        <item>@raw/mc2</item>
+        <item>@raw/mc3</item>
+        <item>@raw/mc4</item>
+        <item>@raw/mc5</item>
+        <item>@raw/mc6</item>
+        <item>@raw/mc7</item>
+        <item>@raw/mc8</item>
+        <item>@raw/mc9</item>
+        <item>@raw/mc11</item>
+        <item>@raw/mc13</item>
+        <item>@raw/mc14</item>
+        <item>@raw/mc16</item>
+        <item>@raw/mc19</item>
+        <item>@raw/mc22</item>
+        </array>
+        
+		<array name="concord">
+        <item>@raw/concord1</item>
+        <item>@raw/concord2</item>
+        <item>@raw/concord3</item>
+        </array>
+		
+		<array name="persyear">
+        <item>@raw/persyear1</item>
+        <item>@raw/persyear2</item>
+        <item>@raw/persyear3</item>
+        <item>@raw/persyear4</item>
+        <item>@raw/persyear5</item>
+        <item>@raw/persyear6</item>
+        <item>@raw/persyear7</item>
+        <item>@raw/persyear8</item>
+        <item>@raw/persyear9</item>
+        </array>
+
+		<array name="persmon">
+        <item>@raw/pm1</item>
+        <item>@raw/pm2</item>
+        <item>@raw/pm3</item>
+        <item>@raw/pm4</item>
+        <item>@raw/pm5</item>
+        <item>@raw/pm6</item>
+        <item>@raw/pm7</item>
+        <item>@raw/pm8</item>
+        <item>@raw/pm9</item>
+        </array>
+
+		<array name="persday">
+        <item>@raw/pd1</item>
+        <item>@raw/pd2</item>
+        <item>@raw/pd3</item>
+        <item>@raw/pd4</item>
+        <item>@raw/pd5</item>
+        <item>@raw/pd6</item>
+        <item>@raw/pd7</item>
+        <item>@raw/pd8</item>
+        <item>@raw/pd9</item>
+        </array>
+						
+		<array name="bd">
+        <item>@raw/bd1</item>
+        <item>@raw/bd2</item>
+        <item>@raw/bd3</item>
+        <item>@raw/bd4</item>
+        <item>@raw/bd5</item>
+        <item>@raw/bd6</item>
+        <item>@raw/bd7</item>
+        <item>@raw/bd8</item>
+        <item>@raw/bd9</item>
+        <item>@raw/bd10</item>
+        <item>@raw/bd11</item>
+        <item>@raw/bd12</item>
+        <item>@raw/bd13</item>
+        <item>@raw/bd14</item>
+        <item>@raw/bd15</item>
+        <item>@raw/bd16</item>
+        <item>@raw/bd17</item>
+        <item>@raw/bd18</item>
+        <item>@raw/bd19</item>
+        <item>@raw/bd20</item>
+        <item>@raw/bd21</item>
+        <item>@raw/bd22</item>
+        <item>@raw/bd23</item>
+        <item>@raw/bd24</item>
+        <item>@raw/bd25</item>
+        <item>@raw/bd26</item>
+        <item>@raw/bd27</item>
+        <item>@raw/bd28</item>
+        <item>@raw/bd29</item>
+        <item>@raw/bd30</item>
+        <item>@raw/bd31</item>
+        </array>
+		
+</resources>

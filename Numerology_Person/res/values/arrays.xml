@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="months">
+ 		<item>января</item>
+        <item>февраля</item>
+        <item>марта</item>
+		<item>апреля</item>  
+		<item>мая</item>  
+		<item>июня</item>  
+		<item>июля</item>  
+		<item>августа</item>  
+		<item>сентября</item>  
+		<item>октября</item>  
+		<item>ноября</item>  
+		<item>декабря</item> 
+     </string-array>  
+
+        <integer-array name="r1">
+        <item>3</item>
+        <item>3</item>
+        <item>1</item>
+		<item>1</item>  
+		<item>2</item>  
+		<item>3</item>  
+		<item>2</item>  
+		<item>2</item>  
+		<item>4</item>  
+     	</integer-array>  
+     	
+        <integer-array name="r2">
+        <item>4</item>
+        <item>3</item>
+		<item>3</item>  
+		<item>1</item>  
+		<item>3</item>  
+		<item>3</item>  
+		<item>3</item>  
+		<item>4</item>  
+     	</integer-array>  
+        <integer-array name="r3">
+        <item>1</item>
+		<item>2</item>  
+		<item>2</item>  
+		<item>3</item>  
+		<item>3</item>  
+		<item>2</item>  
+		<item>4</item>  
+     	</integer-array>  
+        <integer-array name="r4">
+		<item>3</item>  
+		<item>1</item>  
+		<item>2</item>  
+		<item>3</item>  
+		<item>3</item>  
+		<item>3</item>  
+     	</integer-array>  
+        <integer-array name="r5">
+		<item>1</item>  
+		<item>2</item>  
+		<item>1</item>  
+		<item>3</item>  
+		<item>3</item>  
+     	</integer-array>  
+        <integer-array name="r6">
+		<item>4</item>  
+		<item>1</item>  
+		<item>4</item>  
+		<item>4</item>  
+     	</integer-array>  
+        <integer-array name="r7">
+		<item>4</item>  
+		<item>3</item>  
+		<item>4</item>  
+     	</integer-array>  
+        <integer-array name="r8">
+		<item>2</item>  
+		<item>3</item>  
+     	</integer-array>  
+        <integer-array name="r9">
+		<item>4</item>  
+     	</integer-array>  
+
+      <string-array name="rating">
+ 		<item>Не определен</item>
+        <item>Плохо</item>
+        <item>Средне</item>
+		<item>Хорошо</item>  
+		<item>Отлично</item>  
+     </string-array>  
+        
+</resources>
